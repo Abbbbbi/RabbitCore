@@ -1,4 +1,4 @@
-Rabbit Core 1.0.0
+Rabbit Core 1.0.2.2
 ===============================
 
 https://RabbitCore.org
