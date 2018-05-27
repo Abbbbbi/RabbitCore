@@ -1,0 +1,6 @@
+usr/local/bin/rabbit-qt usr/bin
+share/pixmaps/rabbit32.xpm usr/share/pixmaps
+share/pixmaps/rabbit16.xpm usr/share/pixmaps
+share/pixmaps/rabbit128.png usr/share/pixmaps
+debian/rabbit-qt.desktop usr/share/applications
+debian/rabbit-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/rabbit_bg.qm</file>
+        <file alias="de">locale/rabbit_de.qm</file>
+        <file alias="en">locale/rabbit_en.qm</file>
+        <file alias="es">locale/rabbit_es.qm</file>
+        <file alias="fi">locale/rabbit_fi.qm</file>
+        <file alias="fr">locale/rabbit_fr.qm</file>
+        <file alias="it">locale/rabbit_it.qm</file>
+        <file alias="ja">locale/rabbit_ja.qm</file>
+        <file alias="pl">locale/rabbit_pl.qm</file>
+        <file alias="pt">locale/rabbit_pt.qm</file>
+        <file alias="ru">locale/rabbit_ru.qm</file>
+        <file alias="sk">locale/rabbit_sk.qm</file>
+        <file alias="sv">locale/rabbit_sv.qm</file>
+        <file alias="vi">locale/rabbit_vi.qm</file>
+        <file alias="zh_CN">locale/rabbit_zh_CN.qm</file>
+        <file alias="zh_TW">locale/rabbit_zh_TW.qm</file>
+    </qresource>
+</RCC>

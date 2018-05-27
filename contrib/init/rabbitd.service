@@ -1,0 +1,22 @@
+[Unit]
+Description=Rabbit's distributed currency daemon
+After=network.target
+
+[Service]
+User=rabbitcore
+Group=rabbitcore
+
+Type=forking
+PIDFile=/var/lib/rabbitd/rabbitd.pid
+ExecStart=/usr/bin/rabbitd -daemon -pid=/var/lib/rabbitd/rabbitd.pid \
+-conf=/etc/rabbitcore/rabbit.conf -datadir=/var/lib/rabbitd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
