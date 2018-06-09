@@ -132,8 +132,8 @@ public:
         vSeeds.push_back(CDNSSeedData("RabbitCore", "seed2.RabbitCore.org"));
         vSeeds.push_back(CDNSSeedData("RabbitCore", "seed3.RabbitCore.org"));
         vSeeds.push_back(CDNSSeedData("RabbitCore", "explorer.rabbitcore.org"));
-
-
+        
+        
         // Rabbit addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         // Rabbit script addresses start with '8'
