@@ -131,6 +131,7 @@ public:
         vSeeds.push_back(CDNSSeedData("RabbitCore", "seed1.RabbitCore.org"));
         vSeeds.push_back(CDNSSeedData("RabbitCore", "seed2.RabbitCore.org"));
         vSeeds.push_back(CDNSSeedData("RabbitCore", "seed3.RabbitCore.org"));
+        vSeeds.push_back(CDNSSeedData("RabbitCore", "explorer.rabbitcore.org"));
 
 
         // Rabbit addresses start with 'R'
